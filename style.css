@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+}
+
+.top-bar {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background-color: #00c853;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.song {
+  margin: 10px 0;
+  padding: 10px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 5px;
+}
+
+.player {
+  margin-top: 30px;
+}
+
+.controls button {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.playlist ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.playlist li {
+  padding: 5px;
+  cursor: pointer;
+  background: rgba(255,255,255,0.05);
+  margin: 5px 0;
+  border-radius: 5px;
+}

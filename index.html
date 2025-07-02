@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Music Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 Online Music Finder</h1>
+
+    <div class="top-bar">
+      <input type="text" id="searchInput" placeholder="Search for a song or artist..." />
+      <button onclick="searchMusic()">Search</button>
+      <button onclick="toggleTheme()">🌓</button>
+    </div>
+
+    <div id="results"></div>
+
+    <div class="player">
+      <h2 id="nowPlaying">Now Playing: None</h2>
+      <audio id="audioPlayer" controls></audio>
+      <div class="controls">
+        <button onclick="prevTrack()">⏮️</button>
+        <button onclick="playPause()">⏯️</button>
+        <button onclick="nextTrack()">⏭️</button>
+      </div>
+    </div>
+
+    <div class="playlist">
+      <h2>Playlist</h2>
+      <ul id="playlist"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
